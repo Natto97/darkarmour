@@ -25,5 +25,5 @@ python3 darkarmour.py -f /root/exploit.exe -e xor -j -k darkbyte -l 500 -u -o /r
 ```
 或者
 ```
-python3 darkarmour.py -f bins/meter.exe --encrypt xor --jmp -o bins/legit.exe --loop 5
+python3 darkarmour.py -f /root/exploit.exe --encrypt xor --jmp -o bins/legit.exe --loop 5
 ```
